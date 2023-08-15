@@ -1,0 +1,390 @@
+body {
+	margin: 0;
+	background-color: #F2F2F2;
+	font-family: Quicksand, arial;
+}
+
+/* 
+
+Début header index
+
+*/
+
+.header-index {
+	height: 560px;
+	background-image: url("image/fond-accueil.jpg");
+	background-size: cover;
+	padding-top: 10px;
+}
+
+.header-content {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	gap: 30px;
+	height: 100%;
+}
+
+	#conteneur {
+		display: grid;
+		grid-template-columns: 100px auto 100px;
+		justify-content: space-between;
+		align-content: center;
+	    margin: 0 50px;
+	}
+
+		.logo {
+			width: 80px;
+			height: 80px;
+			align-self: center;
+		}
+
+		.header-nav-menu {
+			display: grid;
+ 			grid-template-columns: 130px 130px 130px 130px;
+ 			text-align: center;
+			list-style: none;
+			gap: 50px;
+			color: #F2F2F2;
+			font-size: 30px;
+		}
+
+		.header-nav-menu a {
+			color: #f2f2f2;
+			text-decoration: none;
+		}
+
+		.header-nav-menu li {
+			transition: all ease-in-out .1s;
+		}
+
+		.header-nav-menu li:hover {
+			text-decoration: underline;
+			text-underline-offset: 8px;
+			font-weight: 600;
+		}
+
+		.header-social {
+			text-align: center;
+			align-self: center;
+		}
+
+	.header-content-block {
+		display: flex;
+		justify-content: center;
+		text-align: center;
+	}
+		.header-content-block-texte {
+		}
+
+			.header-p {
+				color: #F2F2F2;
+				font-size: 30px;
+				letter-spacing: 5px;
+				font-weight: 300;
+				margin-bottom: 5px;
+			}
+
+			.header-h1 {
+				font-size: 60px;
+				color: #F2F2F2;
+				font-weight: 600;
+				margin-top: 10px;
+			}
+
+			/*.header-content-button {
+				font-size: 20px;
+            	background-image: linear-gradient(to right, #380541  0%, #B0AED1  100%);
+				border: none;
+				padding: 15px 45px;
+				text-align: center;
+				text-transform: uppercase;
+	            transition: 0.5s;
+	            background-size: 200% auto;
+	            color: #F2F2F2; 
+	            border-radius: 10px;
+			}
+
+          .header-content-button:hover {
+            background-position: right center;
+            color: #F2F2F2;
+            text-decoration: none;
+          }*/
+
+          .header-content-btn {
+          	font-family: Quicksand;
+          	font-size: 30px;
+          	font-weight: 500;
+      		border: 1px solid #F2F2F2;
+          	text-decoration: none;
+          	background-color: transparent;
+          	color: #F2F2F2;
+          	padding: 10px 50px;
+          	transition: all ease-in-out .3s;
+          	margin-top: 60px;
+          }
+
+           .header-content-btn:hover {
+            background-color: #f2f2f2;
+            color: #380541;
+            text-decoration: none;
+          }
+
+		.header-content-block-img img{
+			width: 500px;
+			height: 300px;
+			margin: 30px 50px auto auto;
+		}
+
+/* 
+
+Fin header index
+
+*/
+
+/*
+
+Début header tarifs
+
+*/
+
+.header-tarifs {
+	height: 100px;
+	background-image: url("image/fond-accueil.jpg");
+	background-size: cover;
+	padding-top: 10px;
+}
+
+/*
+
+Fin header tarifs
+
+*/
+
+
+/* 
+
+Les services 
+
+*/
+
+section h2 {
+	font-size: 50px;
+	text-align: center;
+	color: #380541;
+	margin-bottom: 30px;
+}
+
+/* INDEX */
+
+.section-services-container-index {
+	font-size: 20px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+    align-items: flex-start;
+    column-gap: 20px;
+    padding: 0 50px;
+}
+
+	.section-services-column-index {
+		display: flex;
+		flex-direction: column;
+		background-color: #F2F2F2 ;
+		border: 0.1px solid transparent;
+		border-radius: 20px;
+		box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+		width: 25%;
+		height: 520px;
+	}
+
+		.section-services-img-index {
+			max-width: 100%;
+			max-height: 200px;
+			margin: 0;
+			border: 1px solid transparent;
+			border-radius: 20px 20px 0 0 ;
+		}
+
+		.section-services-texte {
+			height: auto;
+			margin: 0;
+			padding: 20px 20px 0 20px;
+			color: #52443C;
+		}
+
+		.section-services-texte-h3 {
+			margin: 0;
+			text-transform: uppercase;
+			font-weight: 600;
+			font-size: 25px;
+			color: #380541;
+		}
+
+		.section-services-texte-bordure-basse-index {
+			color: #856654;
+			width: 25%;
+			border-bottom: 2px solid #856654;
+			height: 10px;
+		}
+
+	.section-services-container-button {
+	display: flex;
+	justify-content: center;
+	margin: 30px 0;
+}
+
+	.section-services-content-button {
+          	font-size: 30px;
+          	border: 1px solid #380541;
+          	text-decoration: none;
+          	background-color: transparent;
+          	color: #380541;
+          	padding: 10px 50px;
+          	transition: all ease-in-out .3s;
+          }
+
+       .section-services-content-button:hover {
+        background-color: #380541;
+        color: #F2F2F2;
+        text-decoration: none;
+      }
+
+/* TARIFS*/
+
+.section-services-container-tarifs {
+	font-size: 20px;
+	display: flex;
+	flex-direction: column;
+    gap: 20px;
+    padding: 0 50px;
+}
+
+	.section-services-column-tarifs {
+			display: flex;
+			flex-direction: row;
+			gap: 20px;
+			background-color: #F2F2F2 ;
+			border: 0.1px solid transparent;
+			border-radius: 20px;
+			box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+			width: 100%;
+			height: auto;
+		}
+
+		.section-services-img-tarifs {
+			width: 300px;
+			max-height: 200px;
+			margin: 0;
+			border: 1px solid transparent;
+			border-radius: 20px 0 0 20px ;
+		}
+
+		.section-services-texte-bordure-basse-tarifs {
+			color: #856654;
+			width: 70px;
+			border-bottom: 2px solid #856654;
+			height: 10px;
+		}
+
+/*
+
+ Les projets 
+
+*/
+
+
+.section-projets-container {
+	font-size: 20px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+    column-gap: 20px;
+    padding: 0 50px;
+}
+
+	.section-projets-column {
+		max-width: 400px;
+	}
+
+		.section-projets-img {
+			position: relative;
+		}
+
+			.section-projets-img img {
+				width: 400px;
+				height: 250px;
+			}
+
+		.section-projets-icon {
+			 position: absolute;
+			 top: 0;
+			 left: 0;
+			 width: 400px;
+			 height: 250px;
+			 opacity: 0;
+		}
+
+			.section-projets-icon i {
+				opacity: 0;
+				position: absolute;
+				top: 50%;
+				left: 47%;
+			}
+
+			.section-projets-icon:hover, .section-projets-icon i {
+				opacity: 1;
+				background-color: rgba(0, 0, 0, 0.7);
+			}
+
+	.section-projets-texte {
+			height: auto;
+			margin: 0;
+			padding: 0px 20px 0 20px;
+			color: #52443C;
+	}
+
+		.section-projets-texte-h3 {
+			text-transform: uppercase;
+			font-weight: 600;
+			font-size: 25px;
+			color: #380541;
+			text-align: center;
+		}
+
+.section-projets-container-button {
+    	display: flex;
+    	justify-content: center;
+    	margin: 20px 0;
+}
+
+	.section-projets-content-button {
+          	font-size: 30px;
+          	border: 1px solid #380541;
+          	text-decoration: none;
+          	background-color: transparent;
+          	color: #380541;
+          	padding: 10px 50px;
+          	transition: all ease-in-out .3s;
+    }
+
+    .section-projets-content-button:hover {
+        background-color: #380541;
+        color: #f2f2f2;
+        text-decoration: none;
+    }
+
+footer {
+	background-color: #380541;
+	margin : 50px 0 0 0;
+	height: 100px;
+	padding: 20px;
+	color: #f2f2f2;
+}
+
+	.footer-ul {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		list-style: none;
+	}
