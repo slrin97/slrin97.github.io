@@ -107,8 +107,8 @@ Début header index
         }
 
          .header-content-btn:hover {
-          background-color: #f2f2f2;
-          color: #380541;
+          background-color: #F2F2F2;
+          color: #1C3D5A;
           text-decoration: none;
         }
 
@@ -197,7 +197,7 @@ Les services
 section h2 {
 	font-size: 50px;
 	text-align: center;
-	color: #380541;
+	color: #1C3D5A;
 	margin-bottom: 30px;
 }
 
@@ -253,7 +253,7 @@ section h2 {
 			text-transform: uppercase;
 			font-weight: 600;
 			font-size: 25px;
-			color: #380541;
+			color: #1C3D5A;
 		}
 
 		.section-services-texte-bordure-basse-index {
@@ -271,16 +271,16 @@ section h2 {
 
 	.section-services-content-button {
           	font-size: 30px;
-          	border: 1px solid #380541;
+          	border: 1px solid #1C3D5A;
           	text-decoration: none;
           	background-color: transparent;
-          	color: #380541;
+          	color: #1C3D5A;
           	padding: 10px 50px;
           	transition: all ease-in-out .3s;
           }
 
        .section-services-content-button:hover {
-        background-color: #380541;
+        background-color: #1C3D5A;
         color: #F2F2F2;
         text-decoration: none;
       }
@@ -466,7 +466,7 @@ section h2 {
 			text-transform: uppercase;
 			font-weight: 600;
 			font-size: 25px;
-			color: #380541;
+			color: #1C3D5A;
 			text-align: center;
 		}
 
@@ -478,16 +478,16 @@ section h2 {
 
 	.section-projets-content-button {
           	font-size: 30px;
-          	border: 1px solid #380541;
+          	border: 1px solid #1C3D5A;
           	text-decoration: none;
           	background-color: transparent;
-          	color: #380541;
+          	color: #1C3D5A;
           	padding: 10px 50px;
           	transition: all ease-in-out .3s;
     }
 
     .section-projets-content-button:hover {
-        background-color: #380541;
+        background-color: #1C3D5A;
         color: #f2f2f2;
         text-decoration: none;
     }
@@ -532,7 +532,7 @@ section h2 {
 
 
 footer {
-	background-color: #380541;
+	background-color: #1C3D5A;
 	margin : 50px 0 0 0;
 	height: 100px;
 	padding: 20px;
