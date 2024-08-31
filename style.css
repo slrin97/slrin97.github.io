@@ -168,7 +168,8 @@ Début header tarifs
 
 .header-tarifs {
 	height: 100px;
-	background-image: url("image/fond-accueil.jpg");
+	/*background-image: url("image/fond-accueil.jpg");*/
+	background-color: #1C3D5A;
 	background-size: cover;
 	padding-top: 10px;
 }
