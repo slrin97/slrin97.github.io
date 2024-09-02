@@ -102,8 +102,6 @@ Début header index
 		justify-content: center;
 		text-align: center;
 	}
-		.header-content-block-texte {
-		}
 
 			.header-p {
 				color: #F2F2F2;
@@ -274,10 +272,6 @@ Fin header tarifs
 Les services 
 
 */
-
-section {
-
-}
 
 section h2 {
 	font-size: 50px;
